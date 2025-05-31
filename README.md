@@ -4,8 +4,9 @@ This project is a hardware-based recreation of the classic arcade game "Crazy Ta
 ## 🚕 Game Overview
 Crazy Taxi challenges players to steer a taxi down a two-lane road, dodging randomly appearing obstacles by switching lanes or timing precise jumps. Points are awarded for each obstacle successfully avoided or jumped over. The game continues until the taxi collides with an obstacle, at which point the player can choose to restart and chase a higher score.
 
-The system is divided into five core functional blocks, as illustrated in the updated block diagram below:
-![Block_Diagram](https://github.com/user-attachments/assets/bdb0819f-9937-46b1-842b-5d4165ee3db7)
+The system is divided into five core functional blocks, as illustrated in the updated block diagram below:  
+
+![Block_Diagram](https://github.com/user-attachments/assets/09e07905-5e79-49d4-81ef-db98e22eea28)
 
 1. ⌨️ **Input Processing**
    - Device: PS/2 Keyboard
@@ -44,7 +45,7 @@ The system is divided into five core functional blocks, as illustrated in the up
    - Function: Real-time score updates where every point scored is written to a memory-mapped register, immediately updating the on-board seven-segment display.
 
 ## Watch the Demo below!
-[![Watch the demo](https://github.com/user-attachments/assets/f8fcaef6-57b7-4da6-a60d-f07a7caa88b4)](https://drive.google.com/file/d/1OEAnlNtGfj88Up0lkzl5VQ6RkIEBhvfp/view?usp=drive_link)
+[![Watch the demo](https://github.com/user-attachments/assets/b4d2ff41-2874-4889-8e48-dd73f41a2811)](https://drive.google.com/file/d/1OEAnlNtGfj88Up0lkzl5VQ6RkIEBhvfp/view?usp=drive_link)
 
 # Academic Integrity Notice
 This project was created as coursework for ECE243 at the University of Toronto. The code and documentation are provided for reference only and are not licensed for use, modification, or distribution. All rights reserved.
